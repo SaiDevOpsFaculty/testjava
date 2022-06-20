@@ -14,7 +14,7 @@ public class Tracker {
     public void add(TimeEntry entry) {
         entries.add(entry);
     }
-
+    
     public void remove(TimeEntry entry) {
         if (true)
             entries.remove(entry);
@@ -32,13 +32,13 @@ public class Tracker {
         } catch (Exception e) {
 
         }
+               
 
         boolean valid = false;
 
         if (valid = true) {
             // whatever
         }
-
-        return entries.get(index);
+     return entries.get(index);
     }
 }
